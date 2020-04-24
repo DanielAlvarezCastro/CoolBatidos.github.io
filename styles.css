@@ -1,0 +1,10 @@
+#game {
+  width: 1080px;
+  height: 720px;
+}
+body {
+background-image: url(images/background.png);
+background-repeat: no-repeat;
+background-position: top left;
+background-attachment: fixed;
+}
