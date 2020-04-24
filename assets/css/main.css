@@ -608,9 +608,9 @@
 	}
 
 /* Box */
-
+/* Los cuadros salientes de texto*/
 	.box {
-		background: #000000;
+		background: #FFFFFF;
 		color: #39454b;
 		padding: 2em;
 	}
@@ -1274,7 +1274,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background: rgba(0, 0, 0, 0.95);
+		background: #FFFFFF;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -1684,7 +1684,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: #16001E;
+		background: #000000;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(255, 255, 255, 0.1);
@@ -1896,9 +1896,9 @@
 			.main.style3 .content > header {
 				margin-bottom: 2em;
 			}
-
+/*Fondo de la galería*/
 			.main.style3.primary {
-				background: #000000;
+				background: #FFFFFF;
 			}
 
 			.main.style3.secondary {
@@ -2015,7 +2015,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #16001E;
+		background: #000000;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2108,9 +2108,13 @@
 		}
 
 /* Intro */
-
+    #logo {
+        background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+    }
 	#intro {
-		background: url("../../images/intro.jpg");
+		background: #FFFFFF;
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
